@@ -12,6 +12,8 @@
 		D8D693591E0B5D16005858DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D693571E0B5D16005858DC /* Main.storyboard */; };
 		D8D6935B1E0B5D17005858DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D6935A1E0B5D17005858DC /* Assets.xcassets */; };
 		D8D6935E1E0B5D17005858DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D6935C1E0B5D17005858DC /* LaunchScreen.storyboard */; };
+		D8D693661E0B603F005858DC /* AddRowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D693651E0B603F005858DC /* AddRowViewController.swift */; };
+		D8D693681E0B6222005858DC /* RowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D693671E0B6222005858DC /* RowDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D8D6935A1E0B5D17005858DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8D6935D1E0B5D17005858DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8D6935F1E0B5D17005858DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D693651E0B603F005858DC /* AddRowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRowViewController.swift; sourceTree = "<group>"; };
+		D8D693671E0B6222005858DC /* RowDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				D8D693531E0B5D16005858DC /* AppDelegate.swift */,
 				D8D693551E0B5D16005858DC /* ViewController.swift */,
+				D8D693671E0B6222005858DC /* RowDetailViewController.swift */,
+				D8D693651E0B603F005858DC /* AddRowViewController.swift */,
 				D8D693571E0B5D16005858DC /* Main.storyboard */,
 				D8D6935A1E0B5D17005858DC /* Assets.xcassets */,
 				D8D6935C1E0B5D17005858DC /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				D8D693561E0B5D16005858DC /* ViewController.swift in Sources */,
 				D8D693541E0B5D16005858DC /* AppDelegate.swift in Sources */,
+				D8D693681E0B6222005858DC /* RowDetailViewController.swift in Sources */,
+				D8D693661E0B603F005858DC /* AddRowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
